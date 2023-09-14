@@ -3,7 +3,7 @@ import { NavigationBar } from "../components/navigation_bar"
 
 export const ContactScreen = () => {
     // State for storing data from API
-    const [data, setData] = React.useState([])
+    const [, setData] = React.useState([])
     // State for name input
     const [name, setName] = React.useState('')
     // State for phone input
