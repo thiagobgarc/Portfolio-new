@@ -75,6 +75,12 @@ export const ContactScreen = () => {
         getData()
     }, [])
 
+
+    if (data === null) {
+        // Data is not available yet, you can render a loading message or return null
+        return <div>Loading...</div>;
+    }
+    
     return (
         <div className="bg-purple-300 flex flex-col h-screen justify-center items-center">
             <div>
