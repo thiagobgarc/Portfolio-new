@@ -24,7 +24,7 @@ export const NavigationBar = () => {
             height={24}
           />
         </a>
-        <a href="https://portfolio-new-ruby-psi.vercel.app/resume">
+        <a href="/resume">
           <img
             className="mr-4"
             src="/images/icons8-resume-64.png"
