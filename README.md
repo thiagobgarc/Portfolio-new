@@ -1,3 +1,13 @@
+# New Portfolio
+## This is my new Portfolio and code is above!
+
+### Features
+- User will be able to navigate to other pages in the home screen
+- Buttons to go to Projects, About me, and Contact page.
+- Projects page is a carousel that when the image is clicked it will link to github repository of that specific repository
+- Naivgation bar contains home page link path as Portolio, an icon to link to Github and linkedIn and also my Resume.
+- Contact page hasn't changed in terms of functionality
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
