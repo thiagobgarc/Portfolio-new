@@ -1,4 +1,4 @@
-import resume from "../assets/resume/Thiago's Resume 09.07.23 (1)-1.png"
+import resume from "/resume/Thiago's Resume 09.07.23 (1)-1.png"
 import { NavigationBar } from "./navigation_bar";
 
 export const Pdf = () => {
