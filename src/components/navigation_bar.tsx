@@ -9,7 +9,7 @@ export const NavigationBar = () => {
         <a href="https://github.com/thiagobgarc">
           <img
             className="mr-4"
-            src="public/images/icons8-github-48.png"
+            src="/images/icons8-github-48.png"
             alt="github"
             width={30}
             height={24}
@@ -18,7 +18,7 @@ export const NavigationBar = () => {
         <a href="https://www.linkedin.com/in/thiago-bueno-garcia-34604a25a">
           <img
             className="mr-4"
-            src="public/images/icons8-linkedin-100.png"
+            src="/images/icons8-linkedin-100.png"
             alt="linkedin"
             width={30}
             height={24}
@@ -27,7 +27,7 @@ export const NavigationBar = () => {
         <a href="/resume">
           <img
             className="mr-4"
-            src="public/images/icons8-resume-64.png"
+            src="/images/icons8-resume-64.png"
             alt="resume"
             width={30}
             height={24}
