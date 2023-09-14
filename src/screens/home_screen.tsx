@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { NavigationBar } from "../components/navigation_bar";
-import { ProjectScreen } from "./project_screen";
 export const HomeScreen = () => {
     return (
     <div className="bg-purple-300 flex flex-col h-screen justify-center items-center">
