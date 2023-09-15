@@ -4,7 +4,7 @@ import { NavigationBar } from "./navigation_bar";
 export const Pdf = () => {
   
     return (
-        <div className="bg-purple-300  p-2 justify-between items-center flex-1 flex-col">
+        <div className="bg-purple-300  p-2 justify-between items-center flex flex-col">
             <div>
             <NavigationBar />
             </div>
