@@ -10,14 +10,14 @@ export const ProjectScreen = () => {
             <div className="flex-col flex mb-4 mt-4">
                 <NavigationBar />
             </div>
-           <div className="flex-wrap opacity-70 rounded-3xl shadow-lg shadow-neonBlue sm:w-full">
-            <h1 className="sm:w-full text-2xl lg:text-3xl mt-10 ml-0 text-neonBlue text-center mb-10 font-mono font-semibold">
+           <div className="flex-wrap opacity-70 rounded-3xl shadow-lg shadow-neonBlue max-w-md">
+            <h1 className="text-2xl lg:text-3xl mt-10 ml-0 text-neonBlue text-center mb-10 font-mono font-semibold">
                Web and Mobile Projects
             </h1>
             <Carousel>
                 {seedData.map((project: any, index: number) => (
                     <Link to={project.link}>
-                    <div className="slide h-60 w-12 sm:h-96 sm:w-24">
+                    <div className="slide h-60 w-12 sm:h-96 sm:w-24 flex items-center justify-center">
                         <img src={project.image} alt={project.projectName}
                             key={index} 
                             className="object-cover h-full w-full rounded-lg"
