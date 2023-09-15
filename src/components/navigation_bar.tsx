@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ResumeScreen } from "../screens/resume_screen";
 
 export const NavigationBar = () => {
   return (
@@ -24,7 +26,7 @@ export const NavigationBar = () => {
             height={24}
           />
         </a>
-        <a href="https://portfolio-n7hpuuctx-thiagobgarc.vercel.app/resume">
+        <Link to={"/resume"} state={ResumeScreen} replace={true}>
           <img
             className="mr-4"
             src="/images/icons8-resume-64.png"
@@ -32,7 +34,7 @@ export const NavigationBar = () => {
             width={30}
             height={24}
           />
-        </a>
+        </Link>
       </div>
     </div>
   );
