@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { ResumeScreen } from "../screens/resume_screen";
 
 export const NavigationBar = () => {
   return (
