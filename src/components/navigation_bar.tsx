@@ -26,7 +26,7 @@ export const NavigationBar = () => {
             height={24}
           />
         </a>
-        <Link to={"/resume"} state={ResumeScreen} replace={true}>
+        <Link to={"/resume"} >
           <img
             className="mr-4"
             src="/images/icons8-resume-64.png"
