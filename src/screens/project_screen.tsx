@@ -11,7 +11,7 @@ export const ProjectScreen = () => {
                 <NavigationBar />
             </div>
            <div className="opacity-70 rounded-3xl shadow-lg shadow-neonBlue">
-            <h1 className="text-3xl mt-10 ml-7 text-neonBlue text-center mb-10 font-mono font-semibold">
+            <h1 className="text-3xl mt-10 ml-0 text-neonBlue text-center mb-10 font-mono font-semibold">
                Web and Mobile Projects
             </h1>
             <Carousel>
