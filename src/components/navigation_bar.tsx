@@ -24,7 +24,7 @@ export const NavigationBar = () => {
             height={24}
           />
         </a>
-        <a href="/resume">
+        {/* <a href="/resume">
           <img
             className="mr-4"
             src="/images/icons8-resume-64.png"
@@ -32,7 +32,7 @@ export const NavigationBar = () => {
             width={30}
             height={24}
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );
