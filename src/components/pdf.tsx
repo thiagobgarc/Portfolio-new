@@ -8,7 +8,7 @@ export const Pdf = () => {
             <div className="pt-3 sm:pt-1">
             <NavigationBar />
             </div>
-            <div className="flex-1 justify-center items-center mt-40 sm:mb-10">
+            <div className="flex-1 justify-center items-center mt-20 sm:mb-10">
             <div className="rounded-3xl shadow-2xl  shadow-neonBlue mx-10">
                 <img src={resume} alt="resume" 
                 className="object-contain h-full w-full rounded-lg"
